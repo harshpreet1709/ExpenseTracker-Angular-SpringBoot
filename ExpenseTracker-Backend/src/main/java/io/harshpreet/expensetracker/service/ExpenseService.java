@@ -7,4 +7,6 @@ import io.harshpreet.expensetracker.model.Expense;
 public interface ExpenseService {
 
 	List<Expense> findAll();
+	
+	Expense save(Expense expense);
 }
