@@ -1,0 +1,4 @@
+<div *ngFor="let expense of expenses">
+    <h3>{{expense.expense}}</h3>
+    <p>{{expense.amount | currency:'EUR':true}}</p>
+</div>
